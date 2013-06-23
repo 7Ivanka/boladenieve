@@ -1,0 +1,215 @@
+
+a {
+	color: #000000;
+	text-decoration: none
+	}
+
+body {
+	background-image: url(Imagenes/gaby.jpg);
+	background-color: ;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	color: #CCCCCC;
+	margin-top: 0.1em;
+	margin-right: 0.1em;
+	margin-bottom: 0.1em;
+	margin-left: 0.1em
+	}
+	a {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+a:hover {
+	color: #000000;
+	text-decoration:none;
+}
+a img {
+	border:none;
+}
+h1, h2, h3, h4 {
+	font-weight: normal;
+	margin-bottom:1em;
+}
+h1 {
+	color: #000000;
+	font-size: 100%;
+}
+h2 {
+	color: #003366;
+	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
+	font-size: 190%;
+}
+h3 {
+	color: #000000;
+	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
+	font-size: 165%;
+}
+h4 {
+	color: #999;
+	font-weight: normal;
+}
+ul, li {
+	margin: 0 12px;
+}
+p {
+	margin: 0 0 1em 0;
+}
+
+	/** Tables **/
+table {
+    	border-right:0;
+	clear: both;
+	margin-bottom: 10px;
+	width: 100%;
+}
+th {
+	border:0;
+	border-bottom:2px solid #555;
+	text-align: left;
+	padding:4px;
+}
+th a {
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+th a.asc:after {
+	content: ' ?';
+}
+th a.desc:after {
+	content: ' ?';
+}
+table tr td {
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom:1px solid #ddd;
+}
+table tr:nth-child(even) {
+	background: #f9f9f9;
+}
+td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+table td.actions a {
+	margin: 0px 6px;
+	padding:2px 5px;
+}
+/** containers **/
+div.form,
+div.index,
+div.view {
+	float:right;
+	width:76%;
+	border-left:1px solid #666;
+	padding:10px 2%;
+}
+div.actions {
+	float:left;
+	width:16%;
+	padding:10px 1.5%;
+}
+div.actions h3 {
+	padding-top:0;
+	color:#000000;
+}
+
+/* SQL log */
+.cake-sql-log {
+	background: #fff;
+}
+.cake-sql-log td {
+	padding: 4px 8px;
+	text-align: left;
+	font-family: Monaco, Consolas, "Courier New", monospaced;
+}
+.cake-sql-log caption {
+	color:#000;
+	}
+	
+td{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	font-weight: bolder;
+	color: #666666
+}
+	th{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	color: #000000
+}
+	
+textarea {
+	font-family: Arial, Helvetica, sans-serif;	
+	font-size: 1em
+	}
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	list-style-type: square;
+	list-style-position: outside
+	}
+.BulletBackgroundColor {
+	color: #CCCCCC
+	}
+.DataColor {
+	color: #000000
+}
+.footer { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.167em;
+	font-weight: bold;
+	line-height: 1.83em;
+	color: #CCCCCC;
+	background-color: #999999	}
+.FormBackgroundColor {
+	color: #CCCCCC
+	}
+.ImageTitleColor {
+	color: #CCCCCC
+	}
+.LabelColor {
+	color: #CCCCCC
+	}
+.ListColorEven {
+	color: #CCCCCC
+	}
+.ListFooterColor {
+	color: #CCCCCC	}
+.ListHeaderColor {
+	color: #CCCCCC	}
+.ListColorOdd {
+	color: #999999
+	}
+.ListTitleColor {
+	color: #CCCCCC
+	}
+.NavigationBackgroundColor {
+	color: #CCCCCC	}
+.NavigationColor {
+	color: #CCCCCC
+	}
+.NewsDataColor {
+	color: #CCCCCC}
+.StoryTitle {
+	color: #003399;
+	font-weight: bold
+	}
+.StoryContentColor {
+	color: #00CC00	}
+.TitleColor {
+	color: #000000
+}
+a:hover {	
+	text-decoration: underline
+	}
+tr.ListHeaderColor th {
+	text-align: left;
+	}.small {
+	font-size: 85%;
+}
